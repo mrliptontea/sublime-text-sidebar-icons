@@ -1,0 +1,80 @@
+[x] actionscript    script.as
+[x] angular         template.ng.html
+[x] apache          .htaccess
+[x] applescript     script.applescript
+[x] archive         archive.zip
+[x] binary          binary.exe
+[x] blade           artisan, template.blade.php
+[x] bower           bower.json
+[x] c               main.c
+[x] c#              main.cs
+[x] c++             main.cpp
+[x] cfc             cf.cfc
+[x] cfm             cf.cfm
+[x] clojure         clojure.clj
+[x] coffescript     script.coffee
+[x] css             style.css
+[x] default         default
+[x] dlang           main.d
+[x] docker          docker.dockerfile
+[x] elixir          elixir.exs
+[x] erlang          main.erl
+[x] font            font.otf, font.ttf
+[x] git             .gitignore
+[x] go              go.go
+[x] gradle          gradle.properties, gradlew
+[x] graphviz        graphviz.dot
+[x] groovy          script.gvy
+[x] gruntfile       gruntfile.js
+[x] gulpfile        gulpfile.js
+[x] haml            template.haml
+[x] haskell         haskell.hs
+[x] haxe            main.hx
+[x] html            index.html
+[x] illustrator     image.ai
+[x] image           image.gif, image.jpg, image.jpg
+[x] jade            template.jade
+[x] java            main.java
+[x] js              script.js
+[x] jsp             template.jsp
+[x] julia           main.jl
+[x] less            style.less
+[x] license         LICENSE
+[x] lisp            main.lisp
+[x] lua             lua.lua
+[x] markdown        readme.md
+[x] markup          data.xml
+[x] matlab          script.matlab (.m is recognized as Objective-C)
+[x] mustache        template.mustache, template.hbs
+[x] npm             package.json
+[x] ocaml           main.ml
+[x] pdf             document.pdf
+[x] perl            perl.pl
+[x] photoshop       image.psd
+[x] php             index.php
+[x] procfile        Procfile
+[x] puppet          puppet.pp
+[x] python          python.py
+[x] R               main.r
+[x] rails           template.rhtml
+[x] react           template.jsx
+[x] ruby            erb.erb, ruby.rb
+[x] rust            rust.rc
+[x] sass            style.sass
+[x] scala           scala.scala
+[x] scss            style.scss
+[x] settings        data.json
+[x] shell           script.sh
+[x] slim            template.slim
+[x] source          source.diff
+[x] sql             query.sql
+[x] stylus          style.styl
+[x] swift           main.swift
+[x] tcl             script.tcl
+[x] tex             latex.tex
+[x] text            readme.txt
+[x] textile         readme.textile
+[x] todo            todo
+[x] twig            template.twig
+[x] typescript      script.ts
+[x] yaml            data.yaml
