@@ -12,6 +12,7 @@
 		<string>.gitblame</string>
 		<string>.gitcommit</string>
 		<string>.gitgraph</string>
+		<string>.gitmodules</string>
 		<string>.gitattributes</string>
 		<string>.git-blame</string>
 		<string>.git-commit</string>
