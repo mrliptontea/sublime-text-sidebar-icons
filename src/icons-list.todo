@@ -78,3 +78,22 @@
 [x] twig            template.twig
 [x] typescript      script.ts
 [x] yaml            data.yaml
+
+[x] bookmark @done (16-08-31 22:04)
+[x] elixir → ex (rename) @done (16-08-31 22:10)
+[x] fish @done (16-08-31 22:10)
+[x] illustrator → ai (rename) @done (16-08-31 22:06)
+[x] json @done (16-08-31 22:33)
+[x] liquid @done (16-08-31 22:39)
+[x] lsl @done (16-08-31 22:46)
+[x] photoshop → psd (rename) @done (16-08-31 22:47)
+[x] pug (replace jade) @done (16-08-31 23:16)
+[x] R → r (rename) @done (16-08-31 22:33)
+[x] stata @done (16-08-31 23:29)
+[x] svg @done (16-08-31 23:44)
+[x] vue @done (16-08-31 20:20)
+[x] postcss @done (16-08-31 23:54)
+
+Obczaić:
+[ ] Git commit message syntax
+[ ] DocBlockr packages

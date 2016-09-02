@@ -2,7 +2,7 @@
 /**
  * Script for exporting icons to separate PNG files.
  *
- * Grzegorz Rajchman (c) 2015
+ * Grzegorz Rajchman (c) 2016
  * Based on script by Damien van Holten:
  * http://www.damienvanholten.com/blog/export-groups-to-files-photoshop/
  */
@@ -12,7 +12,6 @@ function main()
     if (!documents.length) return;
 
     var iconBaseSize = 16;
-    var iconRetinaSuffix = '@2x';
     var iconNamePrefix = 'file_type_';
     var outputFolder = '../icons';
 
@@ -99,12 +98,27 @@ function main()
             var groupName = layerSets[layerIndex].name;
 
             if (groupName.substr(-4) == '.png') {
-                var iconScale = groupName.substr(-7, 3) == iconRetinaSuffix ? 2 : 1;
+                var iconScale = getLayerScale(groupName);
                 var layer = srcDocument.layers.getByName(groupName);
 
                 saveLayer(layer, groupName, iconScale);
             }
         }
+    }
+
+    function getLayerScale(groupName)
+    {
+        var suffix = groupName.substr(-7, 3);
+
+        if (suffix === '@3x') {
+            return 3;
+        }
+
+        if (suffix === '@2x') {
+            return 2;
+        }
+
+        return 1;
     }
 
     function saveLayer(layer, groupName, iconScale)

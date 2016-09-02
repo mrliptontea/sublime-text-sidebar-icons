@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Adobe Illustrator</string>
+        <key>fileTypes</key>
+        <array>
+            <string>ai</string>
+        </array>
+        <key>scopeName</key>
+        <string>source.ai</string>
+    </dict>
+</plist>

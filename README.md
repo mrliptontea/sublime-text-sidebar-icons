@@ -9,11 +9,11 @@ Please note that icons included in this repository are best suited with a dark b
 
 The purpose of this collection is to override the default icons that come with [themes]. Unfortunately, this prevents from creating a package that could be installed via [Package Control].
 
-To install the icons you'll have to clone this repo to your [Packages] folder and rename the folder's name to match your current theme's package (folder) name, like so:
+To install the icons you'll have to clone this repo to your [Packages] folder and rename the folder's name to match your current theme's package name, like so:
 
     git clone https://github.com/mrliptontea/sublime-text-sidebar-icons [folder name]
 
-For example, I use Predawn theme, so my `[folder name]` is `Predawn`.
+For example, I use [Material] Theme, so my `[folder name]` is `Material Theme`.
 
 Other themes that I tested and folder name you should use:
 
@@ -28,12 +28,14 @@ Other themes that I tested and folder name you should use:
 * [Material] - `Material Theme`,
 * [Predawn] - `Predawn`,
 * [SoDaReloaded] - `Theme - SoDaReloaded`,
-* ...and so on.
+* etc.
+
+For [Boxy] theme you'll folder name might be different, depending on the add-on that you use.
 
 
 ## Customizing the icons
 
-In `src` you'll find `file_type_icons.psd` file which contains all the icons. You can modify the however you want, all you need is Photoshop CS6 or later (but it might work in older versions).
+In `src` you'll find `file_type_icons.psd` file which contains all the icons. You can modify the however you want, all you need is Photoshop CS6 or later (it might work in older versions too).
 
 Also there's simple Photoshop script `export-icons.jsx` that looks for layer groups with names ending with '.png' and exports them to `../icons` folder. You can run it by clicking File → Scripts → Browse... and selecting the script.
 
@@ -68,5 +70,6 @@ Under [MIT Licence](https://github.com/mrliptontea/sublime-text-sidebar-icons/bl
 [Material]: https://packagecontrol.io/packages/Material%20Theme
 [Predawn]: https://packagecontrol.io/packages/Predawn
 [SoDaReloaded]: https://packagecontrol.io/packages/Theme%20-%20SoDaReloaded
+[Boxy]: https://packagecontrol.io/packages/Boxy%20Theme
 [devicons]: http://vorillaz.github.io/devicons/
 [devicon]: http://devicon.fr/
